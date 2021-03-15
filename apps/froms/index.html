@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <form id="form">
+        <div class="container">
+            <div id="studentName">
+                <label for="active">Student name</label>
+                <input id="studentInput" type="text">
+            </div>
+            <div id="studentAge">
+                <label for="active">Student Age</label>
+                <input id="studentAge" type="number">
+            </div>
+            <div id="group">
+                <label for="group">Choose a group:</label>
+                <select name="Group" id="selectGroup">
+                    <option value="select" id="select"></option>
+                    <option value="cse" id="cse">cse</option>
+                    <option value="ece" id="ece">ece</option>
+                    <option value="mech" id="mech">mech</option>
+                    <option value="civil" id="civil">civil</option>
+                </select>
+            </div>
+            <div id="rollNumber">
+                <label for="group">Roll number:</label>
+                <input id="roll_number">
+            </div>
+            <div class="btns" id="btns">
+                <input type="checkbox" id="status"> <label for="status">Active</label>
+                <button type="button" id="submit" onclick="submitStudentList()">Submit</button>
+                <button type="reset" id="reset" onclick="resetlist()">Reset</button>
+                <button type="button" id="display" onclick="listDisplay()">Display</button>
+            </div>
+    </form>
+    <div id="list">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sno</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Group</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

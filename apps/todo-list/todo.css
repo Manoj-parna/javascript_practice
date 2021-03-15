@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+};
+html,body{
+    width: 50%;
+    margin: 0 auto;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+.paragraph-styling{
+    display: flex;
+    justify-content: center;
+}

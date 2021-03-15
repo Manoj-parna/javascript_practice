@@ -1,0 +1,5 @@
+split() - completed
+reverse()
+join()
+map() - completed
+filter()

@@ -1,0 +1,20 @@
+.function{
+    display: flex;
+    
+}
+.buttons{
+    display: flex;
+    width: 100px;
+}
+.add{
+    margin: 20px;
+}
+.sub{
+    margin: 20px;
+}
+.multi{
+    margin: 20px;
+}
+.div{
+    margin: 20px;
+}

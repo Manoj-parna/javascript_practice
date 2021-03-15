@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(129, 129, 221);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    margin-top: 100px;
+}
+#studentName{
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#studentAge{
+    margin-left: 10px;
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#group{
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#rollNumber{
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#btns{
+    margin-left: 9px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#submit{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:whitesmoke
+}
+#reset{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:whitesmoke
+}
+#display{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:whitesmoke;
+}
+#selectGroup{
+    font-family: 'Roboto Condensed', sans-serif;
+}

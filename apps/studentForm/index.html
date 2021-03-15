@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <label for="active">student name</label>
+            <input id="studentInput" type="text">
+        </div>
+        <div>
+            <label for="active">student Age</label>
+            <input id="studentAge" type="number">
+        </div>
+        <div>
+            <label for="group">Choose a group:</label>
+            <select name="Group" id="selectGroup">
+                <option value="select" id="select"></option>
+                <option value="cse" id="cse">cse</option>
+                <option value="ece" id="ece">ece</option>
+                <option value="mech" id="mech">mech</option>
+                <option value="civil" id="civil">civil</option>
+            </select>
+        </div>
+        <div>
+            <label for="group">Roll number:</label>
+            <input id="rollNumber">
+        </div>
+        <div class="btns">
+            <input type="checkbox" id="checkbox"> <label for="checkbox">Active</label>
+            <button type="submit" id="submit" onclick="submitStudentList()">submit</button>
+            <button type="reset" id="reset" onclick="resetlist()">reset</button>
+            <button type="button" id="display" onclick="listDisplay()">displayList</button>
+        </div>
+        <div id="list"></div>
+        <script src="./app.js"></script>
+</body>
+
+</html>
