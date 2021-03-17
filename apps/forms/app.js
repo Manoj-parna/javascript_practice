@@ -1,17 +1,22 @@
 let studentList = [];
 
+
+if("studentDetails" in localStorage){
+  studentList = JSON.parse(localStorage.getItem("studentDetails"));
+}
+
 function submitStudentList() {
   let studentDetails = {
     name: document.getElementById("studentInput").value,
     age: document.getElementById("studentAge").value,
     roll_number: document.getElementById("roll_number").value,
-    status: document.getElementById("status").value,
+    status: document.getElementById("status").checked===true?"on":"off",
     group: document.getElementById("selectGroup").value
   };
   studentList.push(studentDetails);
   const myObj = JSON.stringify(studentList);
   localStorage.setItem("studentDetails", myObj);
-  listDisplay();
+ 
 };
 
 function resetlist() {

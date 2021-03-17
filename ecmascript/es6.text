@@ -41,6 +41,6 @@ set – a function with one argument,
 that is called when the property is set,
 enumerable – same as for data properties,
 configurable – same as for data properties.
-
+//
 
   
